@@ -18,4 +18,10 @@ module Markety
     SFDCLEADOWNERID = "SFDCLEADOWNERID"
     SFDCOPPTYID     = "SFDCOPPTYID"
   end
+
+  # The campaign source. Possible values: MKTOWS or SALES. Enumeration is defined in WSDL.
+  module CampaignSourceType
+    MKTOWS = 'MKTOWS'
+    SALES = 'SALES'
+  end
 end
